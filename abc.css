@@ -1,0 +1,150 @@
+
+ .roll{font-size:22px;
+    position:absolute;
+    left:700px;
+    top:410px;
+    text-decoration: solid;
+    font-family:Cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom right, rgb(78, 139, 140) , rgb(106, 97, 133));
+    color:rgb(36, 35, 33);
+    border-radius: 20%;;
+     }
+#root{
+    width:150px;
+    height:150px;
+    position:absolute;
+    left:705px;
+    top:250px;
+    
+}
+button{
+    background-color: rgb(192, 207, 54);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(4, 82, 62);
+    border-radius: 45%;
+
+}
+body{
+    background-image:linear-gradient(-45deg, rgb(43, 33, 90) , rgb(134, 67, 134));
+        background-size: 400% 400%;
+			/* animation: gradient 3s ease infinite; */
+			animation: gradient 10s ease infinite;
+	}
+	
+	@keyframes gradient {
+			0% {
+					background-position: 0% 50%;
+			}
+			50% {
+					background-position: 100% 50%;
+			}
+			100% {
+					background-position: 0% 50%;
+			}
+	}
+:root {
+		--accentColor: #E6E6E6;
+		--delay: .3s;
+}
+     .pla1{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+    
+    .d1{
+        font-size: large;
+        position: absolute;
+        top:200px;
+        left:200px;   
+    }
+    
+    
+
+.pla2{
+        font-size: larger;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+    
+    .d2{
+        position:absolute;
+        top:200px;
+        left:1050px;
+       
+    }
+.pla3{
+        font-size: larger;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+    .d3{
+        position:absolute;
+        left:200px;
+        top:500px;
+    }
+
+    .pla4{
+        font-size: larger;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+    .d4{
+        position:absolute;
+        top:500px;
+        left:1050px;
+    }
+   /* Add this CSS to your <style> or style.css file */
+.custom-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #333;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+    display: block;
+    width: 400px;
+}
+
+#resultContent {
+    margin-bottom: 20px;
+}
+
+#resultMessage {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+#winnerName {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+
+#alertButtons {
+    display: flex;
+    justify-content: center;
+}
+
+#playAgainButton, #homeButton {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#playAgainButton:hover, #homeButton:hover {
+    background-color: #555;
+}
+
+    
+   
+   
+
+    
